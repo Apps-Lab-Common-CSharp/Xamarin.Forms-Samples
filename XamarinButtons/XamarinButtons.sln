@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinButtons.Android", "XamarinButtons\XamarinButtons.Android\XamarinButtons.Android.csproj", "{5062BEBC-A238-46FD-A872-E4B9B3BB1952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinButtons", "XamarinButtons\XamarinButtons\XamarinButtons.csproj", "{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5062BEBC-A238-46FD-A872-E4B9B3BB1952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5062BEBC-A238-46FD-A872-E4B9B3BB1952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5062BEBC-A238-46FD-A872-E4B9B3BB1952}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5062BEBC-A238-46FD-A872-E4B9B3BB1952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5062BEBC-A238-46FD-A872-E4B9B3BB1952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5062BEBC-A238-46FD-A872-E4B9B3BB1952}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F065A8F5-4ACC-44C4-9A2E-CE8E70C50F95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902B36FC-F21C-4AF5-9324-37A0A89F6813}
+	EndGlobalSection
+EndGlobal

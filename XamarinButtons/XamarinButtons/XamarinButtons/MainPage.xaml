@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinButtons.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:XamarinButtons.ViewModels;assembly=XamarinButtons"
+    mc:Ignorable="d">
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label
+            Grid.Row="0"
+            FontSize="80"
+            HorizontalOptions="Center"
+            Text="{Binding Text}"
+            VerticalOptions="Center" />
+        <Button
+            Grid.Row="1"
+            Command="{Binding ButtonCommand}"
+            CommandParameter="A"
+            HorizontalOptions="Center"
+            Text="Button A"
+            VerticalOptions="Center" />
+        <Button
+            Grid.Row="2"
+            Command="{Binding ButtonCommand}"
+            CommandParameter="B"
+            CornerRadius="20"
+            HorizontalOptions="Center"
+            Text="Button B"
+            VerticalOptions="Center" />
+        <Button
+            Grid.Row="3"
+            Command="{Binding ButtonCommand}"
+            CommandParameter="C"
+            CornerRadius="30"
+            HeightRequest="60"
+            HorizontalOptions="Center"
+            Text="C"
+            VerticalOptions="Center"
+            WidthRequest="60" />
+        <Button
+            Grid.Row="4"
+            Command="{Binding ButtonCommand}"
+            CommandParameter="D"
+            CornerRadius="45"
+            HeightRequest="90"
+            HorizontalOptions="Center"
+            ImageSource="image.png"
+            VerticalOptions="Center"
+            WidthRequest="90" />
+        <Button
+            Grid.Row="5"
+            BackgroundColor="Transparent"
+            Command="{Binding ButtonCommand}"
+            CommandParameter="E"
+            HorizontalOptions="Center"
+            ImageSource="image.png"
+            VerticalOptions="Center" />
+    </Grid>
+
+</ContentPage>
