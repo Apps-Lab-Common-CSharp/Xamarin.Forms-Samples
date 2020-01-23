@@ -159,3 +159,5 @@ Now, change the `AppShell.xaml` to have only single page (without any additional
 Now, build and start your newly created Shell the application:
 
 ![EmptyShellApp](EmptyShellApp.png)
+
+Note: if you have an empty flyout (hamburger menu) still visible, it probably means that you are on Xamarin.Forms 4.2, which has this bug inside. Solution is to update your NuGet Xamarin.Forms package to latest stable version. If you plan to use flyout anyway, then you can stay with 4.2 if you want to.
