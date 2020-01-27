@@ -32,6 +32,7 @@ Here are few samples for Xamarin.Forms buttons.
     WidthRequest="90"
     ImageSource="image.png" />
 ```
+Note, that `image.png` is located in `XamarinButtons.Android\Resources\drawable` directory with build action (see properties) set to `AndroidResource`.
 ***
 
 ![ButtonE](https://thepracticaldev.s3.amazonaws.com/i/xuir4mbbdiw446x5v0pb.png)
@@ -40,5 +41,6 @@ Here are few samples for Xamarin.Forms buttons.
     BackgroundColor="Transparent"
     ImageSource="image.png" />
 ```
+Note, that `image.png` is located in `XamarinButtons.Android\Resources\drawable` directory with build action (see properties) set to `AndroidResource`.
 ___
 What kind of button is missing that you would like to see here too? Let me know.
