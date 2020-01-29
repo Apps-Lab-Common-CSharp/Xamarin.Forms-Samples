@@ -22,7 +22,7 @@ There are multiple ways on how to install some NuGet package, here is one way ho
 
 ## Add Namespace in XAML
 
-Once you reference `PancakeView` reference in your projects, you have to add a namespace in your XAML file.
+Once you added `PancakeView` reference in your projects, you have to add a namespace in your XAML file.
 Open XAML where you would like to use it and add 
 
 ```xml
