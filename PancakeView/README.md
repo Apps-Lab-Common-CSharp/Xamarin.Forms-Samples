@@ -65,4 +65,4 @@ Here is example how it can be used:
 
 Result is looks like this:
 
-![PancakeView](PancakeView.png)
+<img src="PancakeView.png" width=300/>
