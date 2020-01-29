@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeView.Android", "PancakeView\PancakeView.Android\PancakeView.Android.csproj", "{594D70E1-4502-434D-B793-24E11733272F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PancakeView", "PancakeView\PancakeView\PancakeView.csproj", "{B0274216-7234-425C-9026-E05883F1D1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{594D70E1-4502-434D-B793-24E11733272F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D70E1-4502-434D-B793-24E11733272F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594D70E1-4502-434D-B793-24E11733272F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{594D70E1-4502-434D-B793-24E11733272F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594D70E1-4502-434D-B793-24E11733272F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594D70E1-4502-434D-B793-24E11733272F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B0274216-7234-425C-9026-E05883F1D1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0274216-7234-425C-9026-E05883F1D1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0274216-7234-425C-9026-E05883F1D1F1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B0274216-7234-425C-9026-E05883F1D1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0274216-7234-425C-9026-E05883F1D1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0274216-7234-425C-9026-E05883F1D1F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A4F3F93-051C-44FF-A2BE-84C0EDF0C03C}
+	EndGlobalSection
+EndGlobal
