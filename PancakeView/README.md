@@ -65,4 +65,4 @@ Here is example how it can be used:
 
 Result is looks like this:
 
-<img src="PancakeView.png" width=300/>
+<img src="PancakeView.png" width=400/>
