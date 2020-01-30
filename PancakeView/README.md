@@ -6,19 +6,19 @@
 
 Source: https://github.com/sthewissen/Xamarin.Forms.PancakeView
 
-Let's try to add it to our Xamarin.Forms application. Example is created using `Blank Template`, but it can be used in app created with any other template as well.
+Let's try to add it to our Xamarin.Forms application. An example is created using `Blank Template`, but it can be used in an application created with any other template as well.
 
 ## Add NuGet Package
 
-In order to use this `PancakeView` you need to add reference to NuGet package called 
+To use this `PancakeView` you need to add a reference to NuGet package called 
 [Xamarin.Forms.PancakeView](https://www.nuget.org/packages/Xamarin.Forms.PancakeView).
 
 There are multiple ways on how to install some NuGet package, here is one way how to do it:
 
-1. Right click on the solution name in `Solution Explorer` to open context menu and then press `Manage NuGet Packages for Solution...`
-2. Select `Browse` tab and search for `Xamarin.Forms.PancakeView` by Steven Thewissen.
+1. Right-click on the solution name in `Solution Explorer` to open the context menu and then press `Manage NuGet Packages for Solution...`
+2. Select the `Browse` tab and search for `Xamarin.Forms.PancakeView` by Steven Thewissen.
 3. Select all projects (right side) and press `Install`.
-4. If installation is successful, you should see something like `Successfully installed 'Xamarin.Forms.PancakeView'` in `Output` window.
+4. If the installation is successful, you should see something like `Successfully installed 'Xamarin.Forms.PancakeView'` in `Output` window.
 
 ## Add Namespace in XAML
 
@@ -63,6 +63,6 @@ Here is example how it can be used:
 </ContentPage>
 ```
 
-Result is looks like this:
+The result looks like this:
 
-![PancakeView](PancakeView.png)
+<img src="PancakeView.png" width=400/>
