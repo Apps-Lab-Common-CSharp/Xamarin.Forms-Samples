@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingActionButton.Android", "FloatingActionButton\FloatingActionButton.Android\FloatingActionButton.Android.csproj", "{806A598F-0F46-4973-BE9A-30F3660D2C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatingActionButton", "FloatingActionButton\FloatingActionButton\FloatingActionButton.csproj", "{475547F0-08AB-449F-B383-D0E657A44AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806A598F-0F46-4973-BE9A-30F3660D2C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806A598F-0F46-4973-BE9A-30F3660D2C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806A598F-0F46-4973-BE9A-30F3660D2C6E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{806A598F-0F46-4973-BE9A-30F3660D2C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806A598F-0F46-4973-BE9A-30F3660D2C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806A598F-0F46-4973-BE9A-30F3660D2C6E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{475547F0-08AB-449F-B383-D0E657A44AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475547F0-08AB-449F-B383-D0E657A44AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475547F0-08AB-449F-B383-D0E657A44AC3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{475547F0-08AB-449F-B383-D0E657A44AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475547F0-08AB-449F-B383-D0E657A44AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475547F0-08AB-449F-B383-D0E657A44AC3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A56A8D10-39AD-40CC-B6AA-A35DAB855F35}
+	EndGlobalSection
+EndGlobal
