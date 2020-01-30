@@ -4,8 +4,9 @@
 
 Source: https://docs.microsoft.com/en-us/xamarin/essentials/
 
-Xamarin.Essentials provides a single cross-platform API that works with any Xamarin.Forms, Android, iOS, or UWP application that can be accessed from shared code no matter how the user interface is created.
-Provides API for using mobile sensors, e-mail, SMS..
+Xamarin.Essentials provides a single cross-platform API that works with any Xamarin.Forms, Android, iOS, or UWP application that can be accessed from shared code no matter how the user interface is created.<br/>
+
+Xamarin.Essentials provides API for using mobile sensors, access to battery info, device info, connectivity, using SMS, e-mail sending...
 
 #### How to add Xamarin.Essentials to my app?
 
@@ -46,7 +47,9 @@ public override void OnRequestPermissionsResult(int requestCode, string[] permis
 
 ````
 
-##### Visit the [Xamarin.Essentials GitHub](https://github.com/xamarin/Essentials) Repository to see the current source code, what is coming next, run samples, and clone the repository.<br/>
-##### Browse through the [API documentation](https://docs.microsoft.com/en-us/dotnet/api/xamarin.essentials?view=xamarin-essentials) for every feature of Xamarin.Essentials.<br/>
+##### Visit the [Xamarin.Essentials GitHub](https://github.com/xamarin/Essentials) Repository to see the current source code, what is coming next, run samples, and clone the repository.
+
+##### Browse through the [API documentation](https://docs.microsoft.com/en-us/dotnet/api/xamarin.essentials?view=xamarin-essentials) for every feature of Xamarin.Essentials.
+
 ##### Follow the [guides](https://docs.microsoft.com/en-us/xamarin/essentials/#feature-guides) to integrate these Xamarin.Essentials features into your application.
 
