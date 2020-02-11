@@ -185,8 +185,41 @@ This code declaratively defines the user interface for the page, which consists 
 
 In addition, the Entry instances and ListView have names specified with the x:Name attribute. This enables the code-behind file to access these objects using the assigned names.
 
-2. 
+2. In Solution Explorer, in the LocalDatabaseTutorial project, expand MainPage.xaml and double-click MainPage.xaml.cs to open it. Then, in MainPage.xaml.cs, add the OnAppearing override and OnButtonClicked event handler to the class:
 
 ```csharp
+protected override async void OnAppearing()
+{
+    base.OnAppearing();
+    listView.ItemsSource = await App.Database.GetPeopleAsync();
+}
 
+async void OnButtonClicked(object sender, EventArgs e)
+{
+    if (!string.IsNullOrWhiteSpace(nameEntry.Text) && !string.IsNullOrWhiteSpace(ageEntry.Text))
+    {
+        await App.Database.SavePersonAsync(new Person
+        {
+            Name = nameEntry.Text,
+            Age = int.Parse(ageEntry.Text)
+        });
+
+        nameEntry.Text = ageEntry.Text = string.Empty;
+        listView.ItemsSource = await App.Database.GetPeopleAsync();
+    }
+}
 ```
+
+The OnAppearing method populates the ListView with any data stored in the database. The OnButtonClicked method, which is executed when the Button is tapped, saves the entered data into the database before clearing both Entry instances, and refreshing the data in the ListView.
+
+    The OnAppearing method override is executed after the ContentPage is laid out, but just before it becomes visible. Therefore, this       is a good place to set the content of Xamarin.Forms views.
+    
+3. In the Visual Studio toolbar, press the Start button (the triangular button that resembles a Play button) to launch the application inside your chosen remote iOS simulator or Android emulator.
+
+Enter several items of data, tapping the Button for each item of data. This will save the data to the database, and repopulate the ListView with all of the database data:
+
+![running_app](https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/local-database/images/consume-data-access-classes-large.png)
+
+### Try to redo this example according to MVVM pattern principles.
+
+For more information local databases in Xamarin.Forms, see [Xamarin.Forms Local Databases (guide)](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/data-cloud/data/databases)
