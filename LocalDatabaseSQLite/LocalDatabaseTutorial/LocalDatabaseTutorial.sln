@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDatabaseTutorial.Android", "LocalDatabaseTutorial\LocalDatabaseTutorial.Android\LocalDatabaseTutorial.Android.csproj", "{1810626B-47FA-4861-AFA4-EAF64753D67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDatabaseTutorial", "LocalDatabaseTutorial\LocalDatabaseTutorial\LocalDatabaseTutorial.csproj", "{022952FC-39E5-4E74-936A-C2D7E19E6B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1810626B-47FA-4861-AFA4-EAF64753D67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1810626B-47FA-4861-AFA4-EAF64753D67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1810626B-47FA-4861-AFA4-EAF64753D67C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1810626B-47FA-4861-AFA4-EAF64753D67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1810626B-47FA-4861-AFA4-EAF64753D67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1810626B-47FA-4861-AFA4-EAF64753D67C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{022952FC-39E5-4E74-936A-C2D7E19E6B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022952FC-39E5-4E74-936A-C2D7E19E6B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022952FC-39E5-4E74-936A-C2D7E19E6B13}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{022952FC-39E5-4E74-936A-C2D7E19E6B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022952FC-39E5-4E74-936A-C2D7E19E6B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022952FC-39E5-4E74-936A-C2D7E19E6B13}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {659633D1-729E-4588-A6D0-F3B9CDA178C1}
+	EndGlobalSection
+EndGlobal
