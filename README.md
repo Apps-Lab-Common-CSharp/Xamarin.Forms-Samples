@@ -5,3 +5,4 @@ Collection of Xamarin.Forms samples.
 * [Reduced Xamarin.Forms Shell Template and Navigation to Page Not Defined in AppShell.xaml](https://github.com/AppsLab2019/Xamarin.Forms-Samples/tree/master/XamNavigation)
 * [PancakeView](https://github.com/AppsLab2019/Xamarin.Forms-Samples/tree/master/PancakeView)
 * [FloatingActionButton](https://github.com/AppsLab2019/Xamarin.Forms-Samples/tree/master/FloatingActionButton)
+* [Corona Tracker](https://github.com/AppsLab2019/CoronaTracker)
